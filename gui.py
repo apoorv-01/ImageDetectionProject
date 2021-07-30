@@ -3,7 +3,6 @@ from tkinter import filedialog as fd
 from PIL import Image, ImageTk
 from tkinter import font
 import hog
-import people
 
 def select_file(event):
     path = fd.askopenfilename()
